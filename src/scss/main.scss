@@ -107,6 +107,8 @@ body {
         margin-bottom: -12px;
         border: 2px solid $color-5;
         border-radius: 0 6px 6px 0; 
+
+        @media (min-width: 1366px) {margin-left: -22px;}
     }
 
             .demonstration__repair {

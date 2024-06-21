@@ -86,7 +86,7 @@ button6.addEventListener ('click', function(){
     });
 
     
-if (window.innerWidth < 1120) {
+if (window.innerWidth < 1366) {
     repair.insertAdjacentElement('beforeBegin', divider);
 }
 
@@ -115,7 +115,7 @@ if (window.innerWidth > 767) {
     group.insertAdjacentElement('beforeBegin', dividerClone);
 }
 
-if (window.innerWidth > 1119) {
+if (window.innerWidth > 1365) {
 
     header.style.display = 'none';
 
